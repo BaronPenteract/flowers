@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/flowers/static/css/main.a9b2cb65.css",
+    "main.js": "/flowers/static/js/main.a09c9a2f.js",
+    "static/media/intro-bg.png": "/flowers/static/media/intro-bg.d0011bb951ac4647af60.png",
+    "static/media/Inter-Black.ttf": "/flowers/static/media/Inter-Black.143c28420846d45c5834.ttf",
+    "static/media/Inter-Medium.ttf": "/flowers/static/media/Inter-Medium.6dcbc9bed1ec438907ee.ttf",
+    "static/media/Inter-Regular.ttf": "/flowers/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/nav-bg.jpeg": "/flowers/static/media/nav-bg.9c730b5f928e46ad07ab.jpeg",
+    "static/media/GreatVibes-Regular.ttf": "/flowers/static/media/GreatVibes-Regular.39c04c4f40f4b2c45bcc.ttf",
+    "static/media/search.svg": "/flowers/static/media/search.39e2afe5bc368974a714.svg",
+    "index.html": "/flowers/index.html",
+    "main.a9b2cb65.css.map": "/flowers/static/css/main.a9b2cb65.css.map",
+    "main.a09c9a2f.js.map": "/flowers/static/js/main.a09c9a2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9b2cb65.css",
+    "static/js/main.a09c9a2f.js"
+  ]
+}
