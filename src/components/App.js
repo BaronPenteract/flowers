@@ -19,6 +19,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Main isBurgerActive={isBurgerActive} />}>
           <Route index element={<Intro />} />
+          <Route path='/flowers' element={<Intro />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/register' element={<Register />} />
           <Route path='/login' element={<Login />} />
