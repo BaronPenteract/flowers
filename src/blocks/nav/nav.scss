@@ -1,0 +1,77 @@
+.nav {
+  font-size: 22px;
+  background-color: #F1F1F3;
+  padding-bottom: 160px;
+  border-right: 1px solid #dadbdc;
+
+  @media screen and (max-width: 1000px) {
+    padding-bottom: 40px;
+  }
+
+  &__wrapper {
+    position: relative;
+    flex-shrink: 0;
+    width: 260px;
+    padding: 0 0 244px 0;
+    background-image: url(../../images/nav-bg.jpeg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    transition: left .2s linear;
+
+    @media screen and (max-width: 1000px) {
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: -260px;
+      z-index: 1;
+    }
+
+    &_active {
+      left: 0;
+    }
+  }
+  
+  &__header {
+    padding: 20px 0 140px 50px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background-color: #F1F1F3;
+    border-right: 1px solid #dadbdc;
+
+    @media screen and (max-width: 1000px) {
+      padding: 20px 0 40px 50px;
+    }
+  }  
+
+  &__list {
+    margin: 0;
+    padding: 0 0 0 47px;
+    font-size: inherit;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+  
+  &__item {
+    letter-spacing: 1px;
+    font-size: inherit;
+  }
+  
+  &__footer {
+    padding: 0 0 95px 50px;
+    font-size: 18px;
+    background-color: #F1F1F3;
+    border-right: 1px solid #dadbdc;
+
+    @media screen and (max-width: 1000px) {
+      padding-bottom: 35px;
+    }
+  }
+  
+  &__phone {
+    display: block;
+    margin-bottom: 17px;
+  }
+}

@@ -1,0 +1,76 @@
+.intro {
+  padding: 128px 0 97px 28px;
+
+  background-image: url(../../images/intro-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: #F1F1F3;
+
+  @media screen and (max-width: 900px) {
+    background-position-x: 250px;
+    padding: 80px 0 60px 16px;
+  }
+
+  @media screen and (max-width: 500px) {
+    background-position-x: 190px;
+    background-size: auto 90%;
+    padding: 48px 0 47px 8px;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0 0 220px;
+    display: flex;
+    flex-direction: column;
+    font-size: 62px;
+
+    @media screen and (max-width: 500px) {
+      font-size: 42px;
+      padding-bottom: 100px;
+    }
+    
+
+    span:nth-child(1) {
+      margin-bottom: 16px;
+    }
+
+    span:nth-child(2) {
+      margin-bottom: 28px;
+      font-size: 38px;
+      font-weight: 400;
+
+      @media screen and (max-width: 500px) {
+        font-size: 26px;
+      }
+    }
+
+    span:nth-child(3) {
+      font-size: 28px;
+      font-weight: 300;
+
+      @media screen and (max-width: 500px) {
+        font-size: 20px;
+      }
+    }
+    
+  }
+
+  &__button {
+    width: 100%;
+    max-width: 382px;
+    margin-left: 6px;
+    padding-left: 26px;
+
+    background-image: url(../../images/icons/play.png);
+    background-repeat: no-repeat;
+    background-position: 26px center;
+
+    @media screen and (max-width: 500px) {
+      width: 300px;
+      font-size: 14px;
+      margin-left: 0;
+      padding-left: 10px;
+      background-image: none;
+    }
+  }
+}

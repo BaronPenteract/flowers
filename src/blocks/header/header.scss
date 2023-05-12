@@ -1,0 +1,74 @@
+.header {
+  padding: 16px 48px 0 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #F1F1F3;
+
+  &__cart {
+    align-self: flex-end;
+    color: #8d8f96;
+  }
+
+  &__content {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 20px;
+
+    @media screen and (max-width: 1000px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    font-family: 'GreatVibes', sans-serif;
+    font-size: 50px;
+    letter-spacing: 4px;
+  }
+
+  &__nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    letter-spacing: 1px;
+
+    display: flex;
+    gap: 10px;
+  }
+
+  &__link {
+    color: inherit;
+    font-size: 18px;
+  }
+
+  &__search {
+    margin: 0;
+    padding: 2px 0 0 50px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 324px;
+    min-width: 200px;
+    color: inherit;
+    font-size: 22px;
+    background-color: transparent;
+    border: 1px solid #c4c4c8;
+    background-image: url(../../images/icons/search.svg);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: 16px center;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: #adaeb0;
+    }
+  }
+}

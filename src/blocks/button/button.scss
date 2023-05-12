@@ -1,0 +1,21 @@
+.button {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  min-width: 180px;
+  color: #c1c2c9;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #1e1d2b;
+  cursor: pointer;
+  transition: background-color .2s linear, color .2s linear;
+
+  &:hover {
+    background-color: #14141b;
+    color: #fff;
+  }
+}
